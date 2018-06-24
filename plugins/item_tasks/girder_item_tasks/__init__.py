@@ -5,8 +5,8 @@ from girder.constants import registerAccessFlag, AccessType, TokenScope
 from girder.models.item import Item
 from girder.models.token import Token
 from girder.plugin import getPlugin, GirderPlugin
-from girder_plugin_jobs.constants import JobStatus
-from girder_plugin_jobs.models.job import Job
+from girder_jobs.constants import JobStatus
+from girder_jobs.models.job import Job
 
 from . import constants
 from .rest import ItemTask
@@ -117,5 +117,5 @@ class ItemTasksPlugin(GirderPlugin):
 
     def load(self, info):
         getPlugin('jobs').load(info)
-        getPlugin('worker').load(info)
+        getPlugin('remote_worker').load(info)
         return load(info)
