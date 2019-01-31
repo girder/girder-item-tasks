@@ -1,6 +1,6 @@
-import View from 'girder/views/View';
-import PaginateWidget from 'girder/views/widgets/PaginateWidget';
-import { renderMarkdown } from 'girder/misc';
+import View from '@girder/core/views/View';
+import PaginateWidget from '@girder/core/views/widgets/PaginateWidget';
+import { renderMarkdown } from '@girder/core/misc';
 
 import ItemTaskCollection from '../collections/ItemTaskCollection';
 import template from '../templates/paginateTasksWidget.pug';
