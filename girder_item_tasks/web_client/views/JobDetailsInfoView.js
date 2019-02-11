@@ -1,4 +1,4 @@
-import View from 'girder/views/View';
+import View from '@girder/core/views/View';
 
 import template from '../templates/jobDetails.pug';
 import '../stylesheets/jobDetails.styl';

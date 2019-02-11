@@ -3,15 +3,15 @@
 import $ from 'jquery';
 import _ from 'underscore';
 
-import { getCurrentUser } from 'girder/auth';
-import { wrap } from 'girder/utilities/PluginUtils';
-import GlobalNavView from 'girder/views/layout/GlobalNavView';
-import HierarchyWidget from 'girder/views/widgets/HierarchyWidget';
-import ItemView from 'girder/views/body/ItemView';
-import { registerPluginNamespace } from 'girder/pluginUtils';
+import { getCurrentUser } from '@girder/core/auth';
+import { wrap } from '@girder/core/utilities/PluginUtils';
+import GlobalNavView from '@girder/core/views/layout/GlobalNavView';
+import HierarchyWidget from '@girder/core/views/widgets/HierarchyWidget';
+import ItemView from '@girder/core/views/body/ItemView';
+import { registerPluginNamespace } from '@girder/core/pluginUtils';
 import JobModel from '@girder/jobs/models/JobModel';
 import * as itemTasks from './index';
-import router from 'girder/router';
+import router from '@girder/core/router';
 
 import './routes';
 

@@ -1,10 +1,10 @@
 import Backbone from 'backbone';
 
-import { restRequest } from 'girder/rest';
-import router from 'girder/router';
-import View from 'girder/views/View';
+import { restRequest } from '@girder/core/rest';
+import router from '@girder/core/router';
+import View from '@girder/core/views/View';
 import '../stylesheets/configureTasks.styl';
-import 'girder/utilities/jquery/girderModal';
+import '@girder/core/utilities/jquery/girderModal';
 
 import template from '../templates/configureTasks.pug';
 

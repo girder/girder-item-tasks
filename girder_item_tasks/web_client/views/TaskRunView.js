@@ -1,12 +1,12 @@
 import $ from 'jquery';
 import _ from 'underscore';
 
-import View from 'girder/views/View';
-import FolderModel from 'girder/models/FolderModel';
-import ItemModel from 'girder/models/ItemModel';
-import router  from 'girder/router';
-import { restRequest } from 'girder/rest';
-import { renderMarkdown } from 'girder/misc';
+import View from '@girder/core/views/View';
+import FolderModel from '@girder/core/models/FolderModel';
+import ItemModel from '@girder/core/models/ItemModel';
+import router  from '@girder/core/router';
+import { restRequest } from '@girder/core/rest';
+import { renderMarkdown } from '@girder/core/misc';
 
 import template from '../templates/taskRun.pug';
 import '../stylesheets/taskRun.styl';

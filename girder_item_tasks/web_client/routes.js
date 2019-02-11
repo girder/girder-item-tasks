@@ -3,10 +3,10 @@
 import $ from 'jquery';
 import _ from 'underscore';
 
-import router from 'girder/router';
-import events from 'girder/events';
+import router from '@girder/core/router';
+import events from '@girder/core/events';
 
-import ItemModel from 'girder/models/ItemModel';
+import ItemModel from '@girder/core/models/ItemModel';
 import JobModel from '@girder/jobs/models/JobModel';
 
 import TaskListView from './views/TaskListView';

@@ -1,10 +1,10 @@
 import $ from 'jquery';
 import _ from 'underscore';
 
-import View from 'girder/views/View';
-import events from 'girder/events';
-import BrowserWidget from 'girder/views/widgets/BrowserWidget';
-import { getCurrentUser } from 'girder/auth';
+import View from '@girder/core/views/View';
+import events from '@girder/core/events';
+import BrowserWidget from '@girder/core/views/widgets/BrowserWidget';
+import { getCurrentUser } from '@girder/core/auth';
 
 import booleanWidget from '../templates/booleanWidget.pug';
 import colorWidget from '../templates/colorWidget.pug';

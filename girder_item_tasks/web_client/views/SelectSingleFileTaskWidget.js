@@ -1,6 +1,6 @@
-import View from 'girder/views/View';
-import 'girder/utilities/jquery/girderEnable';
-import 'girder/utilities/jquery/girderModal';
+import View from '@girder/core/views/View';
+import '@girder/core/utilities/jquery/girderEnable';
+import '@girder/core/utilities/jquery/girderModal';
 
 import PaginateTasksWidget from './PaginateTasksWidget';
 
